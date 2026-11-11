@@ -7,7 +7,7 @@ Everything below is a work in progress — I keep updating all of it.
 
 - **040925.xyz** — my personal site and archive, hand-built with Astro. Redesigned more times than I can count; it grows as I do.
 - **Ties** — a personal relationship archive: the people in my life, documented and searchable, kept private.
-- **DOUX** — a redesigned browsing experience for Douyin Web. An ongoing experiment in making it cleaner to use.
+- **DOUX** — now its still a secret.
 
 Earlier work: campus-resource-platform (my graduation project, Vue), asset-tracker (a tiny local-first asset tracker).
 
