@@ -1,19 +1,20 @@
-# Hi, I'm Yaoyu Han (Kasimir Han)
+# Yo, I'm Kasai
 
-B.S. in Computer Science, Shanghai Maritime University (2022–2026).
-Developer & writer. I build small tools and keep a personal site.
+I make small web things and write essays in Chinese.
+Everything below is a work in progress — I keep updating all of it.
 
-## Featured projects
+## Always updating
 
-- **[campus-resource-platform](https://github.com/YaoZenO/campus-resource-platform)** — my graduation project (Vue)
-- **kasai-space** — source of my personal site: https://040925.xyz
-- **[asset-tracker](https://github.com/YaoZenO/asset-tracker)** — a local asset tracking tool
+- **040925.xyz** — my personal site and archive, hand-built with Astro. Redesigned more times than I can count; it grows as I do.
+- **Ties** — a personal relationship archive: the people in my life, documented and searchable, kept private.
+- **DOUX** — a redesigned browsing experience for Douyin Web. An ongoing experiment in making it cleaner to use.
 
-## Tech
+Earlier work: campus-resource-platform (my graduation project, Vue), asset-tracker (a tiny local-first asset tracker).
 
-Vue · JavaScript · HTML/CSS · Git
+## Off-screen
 
-## Links
+Formative TV: Peaky Blinders, Breaking Bad, Narcos, Prison Break.
 
-- Website: https://040925.xyz
-- ORCID: https://orcid.org/0009-0006-2942-5450
+---
+
+Vue · JavaScript · HTML/CSS · Astro · Git
