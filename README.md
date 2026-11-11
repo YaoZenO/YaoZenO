@@ -1,9 +1,9 @@
-# Yo, I'm Kasai
+# Yo, I'm Yaoyu, or you can call me Kasai
 
 I make small web things and write essays in Chinese.
 Everything below is a work in progress — I keep updating all of it.
 
-## Always updating
+## Recent updating
 
 - **040925.xyz** — my personal site and archive, hand-built with Astro. Redesigned more times than I can count; it grows as I do.
 - **Ties** — a personal relationship archive: the people in my life, documented and searchable, kept private.
