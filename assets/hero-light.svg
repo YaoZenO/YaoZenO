@@ -1,53 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="602" viewBox="0 0 1200 602" role="img" aria-labelledby="t d">
-  <title id="t">Yaoyu Han — title page</title>
-  <desc id="d">A typographic title page on warm paper: the name set very large in a serif, a vertical column of three Chinese characters in terracotta, a faint column grid, and a small seal.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="t d">
+  <title id="t">Yaoyu Han</title>
+  <desc id="d">A masthead: the name in a large serif on the left, a short note in a narrow column on the right, and hairlines above and below.</desc>
 
-  <rect width="1200" height="602" fill="#FAF6EE"/>
+  <text x="0" y="22" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="4" fill="#8A7F6D">040925.XYZ</text>
+  <text x="1200" y="22" text-anchor="end" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="4" fill="#8A7F6D">SHANGHAI, CHINA</text>
 
-  <g stroke="#E9DFCB" stroke-width="1" opacity="0.55">
-    <line x1="160" y1="100" x2="160" y2="540"/>
-    <line x1="240" y1="100" x2="240" y2="540"/>
-    <line x1="320" y1="100" x2="320" y2="540"/>
-    <line x1="400" y1="100" x2="400" y2="540"/>
-    <line x1="480" y1="100" x2="480" y2="540"/>
-    <line x1="560" y1="100" x2="560" y2="540"/>
-    <line x1="640" y1="100" x2="640" y2="540"/>
-    <line x1="720" y1="100" x2="720" y2="540"/>
-    <line x1="800" y1="100" x2="800" y2="540"/>
-    <line x1="880" y1="100" x2="880" y2="540"/>
-    <line x1="960" y1="100" x2="960" y2="540"/>
-    <line x1="1040" y1="100" x2="1040" y2="540"/>
-  </g>
+  <line x1="0" y1="46" x2="1200" y2="46" stroke="#D9CDB6" stroke-width="1"/>
 
-  <line x1="80" y1="90" x2="1120" y2="90" stroke="#DFD4C0" stroke-width="1"/>
+  <text x="0" y="200" font-family="Georgia,'Times New Roman',serif" font-size="118"
+        letter-spacing="-2.5" fill="#1B1712">Yaoyu</text>
+  <text x="0" y="300" font-family="Georgia,'Times New Roman',serif" font-size="118"
+        letter-spacing="-2.5" fill="#1B1712">Han</text>
 
-  <text x="80" y="66" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15.5" letter-spacing="4.2" fill="#948872">040925.XYZ</text>
-  <text x="1120" y="66" text-anchor="end" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15.5" letter-spacing="4.2" fill="#948872">SHANGHAI, CHINA</text>
+  <line x1="770" y1="120" x2="770" y2="300" stroke="#D9CDB6" stroke-width="1"/>
 
-  <text x="80" y="130" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15.5" letter-spacing="4.2" fill="#948872">PORTFOLIO &amp; ESSAYS — SINCE 2023</text>
+  <text x="806" y="152" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#5A5247">Small tools that keep my own</text>
+  <text x="806" y="182" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#5A5247">data on my own machine.</text>
+  <text x="806" y="230" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#5A5247">Essays on cities, calendars,</text>
+  <text x="806" y="260" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#5A5247">and anything else countable.</text>
 
-  <text x="76" y="270" font-family="Georgia,'Times New Roman','Songti SC',SimSun,serif" font-size="108"
-        letter-spacing="-3.5" fill="#1B1712">Yaoyu</text>
-  <text x="76" y="378" font-family="Georgia,'Times New Roman','Songti SC',SimSun,serif" font-size="108"
-        letter-spacing="-3.5" fill="#1B1712">Han</text>
+  <rect x="0" y="336" width="200" height="3" fill="#A8482C"/>
 
-  <text x="1096" y="248" text-anchor="middle" font-family="'Songti SC','STSong',SimSun,serif" font-size="40" fill="#A8482C">韩</text>
-  <text x="1096" y="302" text-anchor="middle" font-family="'Songti SC','STSong',SimSun,serif" font-size="40" fill="#A8482C">耀</text>
-  <text x="1096" y="356" text-anchor="middle" font-family="'Songti SC','STSong',SimSun,serif" font-size="40" fill="#A8482C">宇</text>
-
-  <rect x="80" y="420" width="204" height="3" fill="#A8482C"/>
-
-  <text x="80" y="466" font-family="Georgia,'Times New Roman','Songti SC',serif" font-size="23" fill="#5A5247">Small tools that keep my own data on my own machine.</text>
-  <text x="80" y="498" font-family="Georgia,'Times New Roman','Songti SC',serif" font-size="23" fill="#5A5247">Essays in Chinese on cities, calendars, anything countable.</text>
-
-  <g>
-    <rect x="1032" y="410" width="72" height="72" rx="2" fill="none" stroke="#A8482C" stroke-width="2.5" opacity="0.8"/>
-    <text x="1068" y="444" text-anchor="middle" font-family="'Songti SC','STSong',SimSun,serif" font-size="25" fill="#A8482C">卡</text>
-    <text x="1068" y="474" text-anchor="middle" font-family="'Songti SC','STSong',SimSun,serif" font-size="25" fill="#A8482C">赛</text>
-  </g>
-
-
-  <line x1="80" y1="540" x2="1120" y2="540" stroke="#E2D8C6" stroke-width="1" stroke-dasharray="3 7"/>
-  <text x="80" y="570" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15.5" letter-spacing="3.6" fill="#948872">PERSONAL ARCHIVE — NO. 001</text>
-  <text x="1120" y="570" text-anchor="end" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15.5" letter-spacing="3.6" fill="#948872">EST. 2023</text>
+  <line x1="0" y1="384" x2="1200" y2="384" stroke="#E2D8C6" stroke-width="1" stroke-dasharray="3 7"/>
+  <text x="0" y="412" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="3.4" fill="#8A7F6D">INDEX NO. 001</text>
+  <text x="1200" y="412" text-anchor="end" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="3.4" fill="#8A7F6D">EST. 2023</text>
 </svg>
