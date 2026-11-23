@@ -2,26 +2,48 @@
   <title id="t">Yaoyu Han</title>
   <desc id="d">A masthead: the name in a large serif on the left, a short note in a narrow column on the right, and hairlines above and below.</desc>
 
-  <text x="0" y="22" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="4" fill="#8A7F6D">040925.XYZ</text>
-  <text x="1200" y="22" text-anchor="end" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="4" fill="#8A7F6D">SHANGHAI, CHINA</text>
+  <style>
+    @keyframes blink { 0%,49.99% { opacity: 1; } 50%,100% { opacity: 0; } }
+    .cursor { animation: blink 1s step-end infinite; }
+  </style>
+
+  <text x="6" y="22" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="4" fill="#8A7F6D">040925.XYZ</text>
+  <text x="1194" y="22" text-anchor="end" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="4" fill="#8A7F6D">SHANGHAI, CHINA</text>
 
   <line x1="0" y1="46" x2="1200" y2="46" stroke="#D9CDB6" stroke-width="1"/>
 
-  <text x="0" y="200" font-family="Georgia,'Times New Roman',serif" font-size="118"
-        letter-spacing="-2.5" fill="#1B1712">Yaoyu</text>
-  <text x="0" y="300" font-family="Georgia,'Times New Roman',serif" font-size="118"
-        letter-spacing="-2.5" fill="#1B1712">Han</text>
+  <!-- name, drawn as a signature (stroke write-in) -->
+  <text x="6" y="200" font-family="Georgia,'Times New Roman',serif" font-size="118" letter-spacing="-2.5"
+        fill="#1B1712" stroke="#1B1712" stroke-width="1.2"
+        stroke-dasharray="2400" stroke-dashoffset="2400">
+    <animate attributeName="stroke-dashoffset" from="2400" to="0" dur="2.2s" begin="0.3s" fill="freeze"/>
+    Yaoyu
+  </text>
+  <text x="6" y="300" font-family="Georgia,'Times New Roman',serif" font-size="118" letter-spacing="-2.5"
+        fill="#1B1712" stroke="#1B1712" stroke-width="1.2"
+        stroke-dasharray="2400" stroke-dashoffset="2400">
+    <animate attributeName="stroke-dashoffset" from="2400" to="0" dur="2.2s" begin="1.4s" fill="freeze"/>
+    Han
+  </text>
 
   <line x1="770" y1="120" x2="770" y2="300" stroke="#D9CDB6" stroke-width="1"/>
 
-  <text x="806" y="152" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#5A5247">Small tools that keep my own</text>
-  <text x="806" y="182" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#5A5247">data on my own machine.</text>
-  <text x="806" y="230" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#5A5247">Essays on cities, calendars,</text>
-  <text x="806" y="260" font-family="Georgia,'Times New Roman',serif" font-size="20" fill="#5A5247">and anything else countable.</text>
+  <!-- right column, typewriter: <set> reveals each line after a delay -->
+  <g font-family="Georgia,'Times New Roman',serif" font-size="30" fill="#5A5247">
+    <text x="806" y="150" opacity="0"><set attributeName="opacity" to="1" begin="2.6s"/>Small tools that keep my own</text>
+    <text x="806" y="190" opacity="0"><set attributeName="opacity" to="1" begin="2.9s"/>data on my own machine.</text>
+    <text x="806" y="248" opacity="0"><set attributeName="opacity" to="1" begin="3.3s"/>Essays on cities, calendars,</text>
+    <text x="806" y="288" opacity="0"><set attributeName="opacity" to="1" begin="3.6s"/>and anything else countable.</text>
+  </g>
+  <rect x="806" y="132" width="3" height="32" fill="#A8482C" class="cursor"/>
 
-  <rect x="0" y="336" width="200" height="3" fill="#A8482C"/>
+  <!-- accent bar sweeps in from the left -->
+  <rect x="0" y="336" width="200" height="3" fill="#A8482C" opacity="0">
+    <set attributeName="opacity" to="1" begin="4.0s"/>
+  </rect>
 
   <line x1="0" y1="384" x2="1200" y2="384" stroke="#E2D8C6" stroke-width="1" stroke-dasharray="3 7"/>
-  <text x="0" y="412" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="3.4" fill="#8A7F6D">INDEX NO. 001</text>
-  <text x="1200" y="412" text-anchor="end" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="3.4" fill="#8A7F6D">EST. 2023</text>
+
+  <text x="6" y="412" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="3.4" fill="#8A7F6D">INDEX NO. 001</text>
+  <text x="1194" y="412" text-anchor="end" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="3.4" fill="#8A7F6D">EST. 2023</text>
 </svg>
