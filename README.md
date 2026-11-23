@@ -11,10 +11,10 @@ Most of what I make starts as a private annoyance. A relationship I could not re
 
 | Project | What it is | Stack | Year |
 | :--- | :--- | :--- | :--- |
-| **[Ties](https://www.040925.xyz/projects/Ties/)** | A private archive of the people in my life — facts, timelines, search. | Vue · Node | 2026 |
-| **Asset tracker** | Desktop tool that prices the real daily cost of everything I own. | Tauri 2 · TS | 2026 |
-| **[kasai-space](https://www.040925.xyz/now/)** | This site. Self-built Git-backed admin panel, no CMS. | Astro · Vercel | 2025– |
-| **Campus resource platform** | Course material sharing across roles, with an AI teaching assistant. Graduation project. | Django · Vue 3 | 2025 |
+| **[Ties](https://www.040925.xyz/projects/Ties/)** | A private archive of the people in my life — facts, timelines, search. | Vue | 2026 |
+| **Asset tracker** | Desktop tool that prices the real daily cost of everything I own. | Tauri 2 | 2026 |
+| **[kasai-space](https://www.040925.xyz/now/)** | This site. Self-built Git-backed admin panel, no CMS. | Astro | 2025– |
+| **Campus resource platform** | Course material sharing across roles, with an AI teaching assistant. Graduation project. | Django | 2025 |
 
 ## Writing
 
